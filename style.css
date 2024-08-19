@@ -45,24 +45,44 @@ section {
 .section-box {
     width: 70%;
 }
-.section-box.secondary-section {
+.section-box.exp-edu-section {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.section-box.secondary-section > .item {
+.section-box.exp-edu-section > .item {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 a {
-    display: inline-block;
+    /* display: block; */
     color: unset;
 }
-.section-box.secondary-section > .item > div > p:nth-child(1) {
+.section-box.exp-edu-section > .item > div > p:nth-child(1) {
     font-size: 13.5px;
 }
 .lighter {
     opacity: 0.8;
 }
+h3 {
+    font-weight: normal;
+}
+.section-box.projects-section {
+    display: flex;
+    justify-content: space-between;
+}
+.section-box.projects-section > div {
+    width: 50%;
+}
+.section-box.projects-section p {
+    font-size: 13.5px;
+    margin-bottom: 8px;
+}
+.section-box.projects-section a {
+    margin-bottom: 5px;
+}
+/* .section-box.projects-section p:nth-of-type(2) {
+    margin-top: 15px;
+} */
